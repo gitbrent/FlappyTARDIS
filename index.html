@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Flappy TARDIS (HTML5 Browser Game)</title>
+	<title>Flappy TARDIS Browser Game</title>
 	<meta name="description" content="Flappy Tardis Web-based HTML5 Browser Game">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -11,12 +11,20 @@
 	<style>
 		body {
 			margin: 0;
+			background: #71c5cf;
+			background: linear-gradient(#71c5cf, #CCF0FF);
 		}
 		p {
 			font-family: Helvetica, Arial, sans-serif;
 			font-size: 11px;
 			color: #666;
 			text-align: center;
+		}
+		.box {
+			font-size: 12px;
+			background: #efefef;
+			border: 1px #ccc solid;
+			padding: 3px;
 		}
 		#game_div, p {
 			width: 320px;
@@ -25,24 +33,35 @@
 		}
 	</style>
 
-	<script type="text/javascript" src="https://rawgithub.com/photonstorm/phaser/master/build/phaser.min.js"></script>
+	<script type="text/javascript" src="phaser.min.js"></script>
 	<script type="text/javascript" src="flappy_play.js"></script>
 	<script type="text/javascript" src="flappy_load.js"></script>
 	<script type="text/javascript" src="flappy_menu.js"></script>
-	<script type="text/javascript" src="flappy_game.js"></script> <!-- Last -->
+	<script type="text/javascript" src="flappy_game.js"></script>
 </head>
 <body>
 	<div id="game_div"></div>
 
-	<p style="color:#acacac">(Sized for iPhone screen)</p>
-	<p><b>for Whovians big and small</b></p>
+	<p class='box'>
+		Information: You are all going to fly.
+	</p>
+	<p>
+		<strong>for Whovians big and small</strong><br>
+		<span style='color:#acacac'>(Sized for iPhone screen)</span>
+	</p>
 	<p>
 		Made with <a href="http://phaser.io/">Phaser</a> / 
-		Based upon tutorial at <a href="http://blog.lessmilk.com/how-to-make-flappy-bird-in-html5-1/">LessMilk</a>
+		Based upon <a href="http://blog.lessmilk.com/how-to-make-flappy-bird-in-html5-1/">Lessmilk tutorial</a>
 	</p>
 	<p>
 	 	Sounds from <a href="http://SoundBible.com">SoundBible</a><br>
-		Images from <a href="http://carnivius.deviantart.com/art/Dalek-160221366">Carnivius @ DeviantArt</a>
+		Images from <a href="http://carnivius.deviantart.com/art/Dalek-160221366">Carnivius @ DeviantArt</a><br>
+		Doctor Who and TARDIS are &copy; / &reg; BBC.
+	</p>
+	<p>
+		Flappy TARDIS works on<br>
+		<strong>iPhone</strong>, <strong>iPad</strong>, <strong>Android</strong> and <strong>Desktop PC's</strong>.<br>
+		Fly the TARDIS as far as you can - save Gallifrey!<br>
 	</p>
 </body>
 </html>
