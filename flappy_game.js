@@ -9,7 +9,7 @@
 var HOLE_SIZE = 125;
 
 // Vars
-var game = new Phaser.Game(365, 500, Phaser.AUTO, 'game_div', null, false, false, null);
+var game = new Phaser.Game(320, 500, Phaser.AUTO, 'game_div', null, false, false, null);
 
 var score = -1;
 var highScore = 0;
