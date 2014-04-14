@@ -45,7 +45,7 @@ var play_state = {
 		overText.align = 'center';
 		// Font
 		overText.font = 'Helvetica';
-		overText.fontSize = 60;
+		overText.fontSize = 52;
 		//	Stroke color and thickness
 		overText.stroke = '#003399';
 		overText.strokeThickness = 5;
